@@ -1,0 +1,146 @@
+.nav-menu {
+    width: 100%;
+    background-color: #2C3840;
+	z-index: 1;
+	position: fixed;
+}
+.nav-menu .menu a {
+    color: #ffffff;
+    padding: 1.0rem 3.5rem;
+	z-index: 1;
+}
+.small-nav-menu {
+    width: 100%;
+    background-color: #2C3840;
+	z-index: 1;
+	position: fixed;
+}
+.small-nav-menu .dropdown-menu a {
+	color: #ffffff;
+    padding: 1.0rem 1.5rem;
+	z-index: 1;
+	margin: auto;
+}
+.small-nav-center-container {
+	float: left;
+	position: relative;
+	left: 27%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2C3840;
+    min-width: 160px;
+    padding: 1px;
+    z-index: 1;
+	text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+	
+}
+.responsive {
+max-width: 100%;
+height: auto;
+margin: 5px;
+}
+
+.parallax-background {
+	background-image: url("../assets/Hoodie-Banner.jpg");
+	height: 1340px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	z-index: -1;
+}
+.center-container {
+	float: left;
+	position: relative;
+	left: 40%;
+}
+.left-container {
+	position: relative;
+	float: left;
+	left: 10%;
+}
+.right-container {
+	position: relative;
+	float: right;
+	right: 10%;
+}
+.fixer-container {
+	float: left;
+	position: relative;
+	left: -40%;
+}
+.small-center-container {
+	float: left;
+	position: relative;
+	left: 30%;
+}
+.small-left-container {
+	position: relative;
+	float: left;
+	left: 5%;
+}
+.small-right-container {
+	position: relative;
+	float: right;
+	right: 5%;
+}
+.small-fixer-container {
+	float: left;
+	position: relative;
+	left: -30%;
+}
+.intro-text {
+	text-align: center;
+	margin-top: 15%;
+}
+.parallax-content {
+	max-width: 100%;
+	position: relative;
+	top: 790px;
+	padding: 80px;
+	background-color: #fff;
+}
+.footer {
+	position: relative;
+	background-color: #2C3840;
+	width: auto;
+	top: 657px;
+	z-index: 1;
+}
+/*#928e85*/
+#Logo {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	width: 20%;
+}
+#Logo2 {
+	width: 60%;
+	position: inherit;
+}
+  .row {
+    margin: 0.3em;
+    padding: 0.4em;
+  }
+  
+  .columns {
+    overflow: hidden;
+  }
+  
+  p, li {
+	font-size: medium;
+  }
+  h1, h2, h3, a {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
